@@ -1,0 +1,32 @@
+{
+  "name": "dareljohnson/check-expect",
+  "description": "check-expect is a simple unit testing framework for PHP development.",
+  "keywords": [
+    "HtDF", "unit test", "code design", "functional test"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Darel Johnson",
+          "email": "dareljohnson@yahoo.com"
+      }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+      "psr-4": {"dareljohnson\\HtDF\\": "src/"},
+      "classmap": [
+        "src/"
+    ]
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "support": {
+    "issues": "https://github.com/dareljohnson/check-expect-php/issues",
+    "source": "https://github.com/dareljohnson/check-expect-php"
+  },
+  "require-dev": {
+
+  }
+}
